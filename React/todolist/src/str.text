@@ -1,0 +1,63 @@
+生命周期函数是指在某一个时刻组件会自动掉用执行的函数
+
+=> Initialization { setup props and state } 初始化
+=> Mounting { componentWillMout (在组件即将被挂载到页面的时候执行) => render (挂载组件) => componentDidMount (在组件挂载到页面之后执行) } 挂载
+=> Updation
+=> Unmounting
+
+    /**
+     * 一个组件要从父组件接受参数
+     * 如果这个组件第一次存在于父组件中，不会执行
+     * 如果这个组件之前已经存在于父组件中，才会执行
+     */
+    componentWillReceiveProps() {
+        console.log('child componentWillRecciveProps')
+    }
+
+    /**
+     * 当这个组件即将被从页面中剔除的时候，会被执行
+     */
+    componentWillUnmount() {
+        console.log('child componentWillUnmount')
+    }
+
+
+    // 在组件即将被挂载到页面的时刻执行 
+    componentWillMount() {
+        console.log('componentWillMount')
+    }
+
+    /***
+     * 组件更新前的询问？
+     * 组件被更新之前，他会自动被执行
+     * 必须有返回值
+     * false 组件不需要更新
+     * true 组件需要更新
+     * 可以做判断固定输值 比如只可输入数字
+     * 
+    ***/
+    shouldComponentUpdate() {
+        console.log('shouldComponentUpdate');
+        return true;
+    }
+
+    /**
+     * 组件被更新之前，它会自动执行，但是他在 shouldComponentUpdatep 之后
+     * 如果shouldComponentUpdate 返回 true 它才执行
+     * 如果返回false,这个函数才会被执行
+     */
+    componentWillUpdate() {
+        console.log('componentWillUpdate')
+    }
+
+    /**
+     * 组件被更新完成之后，他会被执行
+     */
+    componentDidUpdate() {
+        console.log('componentDidUpdate')
+    }
+
+    // 在组件被挂载到页面之后自动被执行 
+    componentDidMount() {
+        console.log('componentDidMount')
+    }
