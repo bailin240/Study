@@ -1,0 +1,51 @@
+{
+    "success": true,
+    "data":{
+        "topicList": [{
+            "id": 1,
+            "title": "社会热点",
+            "imgUrl": "http://upload-images.jianshu.io/upload_images/4095918-cdbdfb6e14d46d8c.jpg?imageMogr2/auto-orient/strip|imageView2/1/w/64/h/64"
+        },{
+            "id": 2,
+            "title": "手绘",
+            "imgUrl": "http://upload-images.jianshu.io/upload_images/11994138-647db2dc86012f13.jpg?imageMogr2/auto-orient/strip|imageView2/1/w/64/h/64"
+        }],
+        "articleList": [{
+            "id": 1,
+            "title": "爱在彼岸花开",
+            "desc": "事情发生在两个星期前的一个早上。 那天我起了个大早，花了一个小时炖了一锅芹菜瘦肉粥。煮好后我喜滋滋的、迫不及待的拿起勺子尝了下味道。 啊呸，怎么...",
+            "imgUrl": "http://upload-images.jianshu.io/upload_images/14955498-15205975505ce376.jpg?imageMogr2/auto-orient/strip|imageView2/1/w/360/h/240"
+         },{
+             "id": 2,
+             "title": "爱在彼岸花开",
+             "desc": "事情发生在两个星期前的一个早上。 那天我起了个大早，花了一个小时炖了一锅芹菜瘦肉粥。煮好后我喜滋滋的、迫不及待的拿起勺子尝了下味道。 啊呸，怎么...",
+             "imgUrl": "http://upload-images.jianshu.io/upload_images/14955498-15205975505ce376.jpg?imageMogr2/auto-orient/strip|imageView2/1/w/360/h/240"
+         },{
+             "id": 3,
+             "title": "爱在彼岸花开",
+             "desc": "事情发生在两个星期前的一个早上。 那天我起了个大早，花了一个小时炖了一锅芹菜瘦肉粥。煮好后我喜滋滋的、迫不及待的拿起勺子尝了下味道。 啊呸，怎么...",
+             "imgUrl": "http://upload-images.jianshu.io/upload_images/14955498-15205975505ce376.jpg?imageMogr2/auto-orient/strip|imageView2/1/w/360/h/240"
+         },{
+             "id": 4,
+             "title": "爱在彼岸花开",
+             "desc": "事情发生在两个星期前的一个早上。 那天我起了个大早，花了一个小时炖了一锅芹菜瘦肉粥。煮好后我喜滋滋的、迫不及待的拿起勺子尝了下味道。 啊呸，怎么...",
+             "imgUrl": "http://upload-images.jianshu.io/upload_images/14955498-15205975505ce376.jpg?imageMogr2/auto-orient/strip|imageView2/1/w/360/h/240"
+         }],
+         "recommendList":[{
+             "id":1,
+             "imgUrl": "http://cdn2.jianshu.io/assets/web/banner-s-3-7123fd94750759acf7eca05b871e9d17.png"
+         },{
+             "id": 2,
+             "imgUrl": "http://cdn2.jianshu.io/assets/web/banner-s-4-b70da70d679593510ac93a172dfbaeaa.png"
+         },{
+             "id":3,
+             "imgUrl": "http://cdn2.jianshu.io/assets/web/banner-s-7-1a0222c91694a1f38e610be4bf9669be.png"
+         },{
+             "id": 4,
+             "imgUrl": "http://cdn2.jianshu.io/assets/web/banner-s-5-4ba25cf5041931a0ed2062828b4064cb.png"
+         },{
+             "id": 5,
+             "imgUrl": "http://cdn2.jianshu.io/assets/web/banner-s-6-c4d6335bfd688f2ca1115b42b04c28a7.png"
+         }]
+    }
+}
